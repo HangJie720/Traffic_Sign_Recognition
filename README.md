@@ -3,6 +3,8 @@ Attacks and defenses against traffic sign recognition with existed gradient-base
 
 Traffic Sign Recognition is one of the most important and indispensable parts in advanced intelligent transportation system and self-driving car engineering, which is also a domestic and international research topic in the field of computer vision and pattern recognition. With the development of Depth Learning, the traffic sign recognition method based on deep-layer Convolution Neural Network (CNN) can autonomously learn the deep-seated features within the image from the training samples, in order to improve the accuracy of recognition. However, the deep-layer CNN is vulnerable to transferable adversarial examples: malicious traffic sign images produced by a specific model are modified to yield erroneous other models’ outputs, disrupting the vehicle driving behavior while appearing unmodified to human observers. The greater challenge is proposed for the accuracy, robustness and security of traffic sign auto-recognition. 
 
+# Run the Code
+
 The following steps should be sufficient to get these attacks up and running on
 most Linux-based systems.
 
@@ -10,7 +12,6 @@ sudo apt-get install python3-pip
 sudo pip3 install --upgrade pip
 sudo pip3 install pillow scipy numpy tensorflow-gpu keras h5py
 
-# Run the Code
 
 1. Training the LeNet/AlexNet/CNN model:
    $ python3 gtsrb_train.py
